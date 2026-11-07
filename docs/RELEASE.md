@@ -13,7 +13,7 @@ The Workshop gets the **built** mod (`publish/mystery_handgonne/`), never this r
    - brew the cartridges;
    - starter recipes in the home stash on a fresh save;
    - console commands.
-4. **Cover image:** use a 16:9 or 1:1 image under 1 MB. An in-game screenshot of the gun works best.
+4. **Cover image:** use a 16:9 or 1:1 image under 1 MB. An in-game screenshot of the gun firing works best. The current covers are cropped from a firing screenshot into `publish/workshop_cover_16x9.jpg` (1920×1080) and `publish/workshop_cover_1x1.jpg` (1024×1024). Like the build, they are not in git.
 5. **Upload:** open `<Steam>/steamapps/common/KCD2Mod/Tools/SteamWorkshopUploader/SteamWorkshopUploader.exe` (part of KCD2 Modding Tools) and fill in:
 
    | Field | Value |
