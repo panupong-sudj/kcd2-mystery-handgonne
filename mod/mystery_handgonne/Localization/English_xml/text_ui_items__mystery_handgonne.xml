@@ -1,0 +1,17 @@
+<Table>
+<Row><Cell>ui_nm_mystery_handgonne_masterwork</Cell><Cell>Masterwork Mystery Handgonne</Cell><Cell>Masterwork Mystery Handgonne</Cell></Row>
+<Row><Cell>ui_nm_mystery_handgonne_standard</Cell><Cell>Mystery Handgonne</Cell><Cell>Mystery Handgonne</Cell></Row>
+<Row><Cell>ui_nm_mystery_handgonne_crude</Cell><Cell>Crude Mystery Handgonne</Cell><Cell>Crude Mystery Handgonne</Cell></Row>
+<Row><Cell>ui_nm_r_mystery_handgonne</Cell><Cell>Mystery Handgonne</Cell><Cell>Mystery Handgonne</Cell></Row>
+<Row><Cell>ui_in_r_mystery_handgonne</Cell><Cell>A strangely shaped gun that seems to have fallen out of another age. The better the smith, the finer the gun that comes off the anvil: forging score 20+ makes a Crude one (Power 700), 50+ a Standard one (Power 950), 75+ a Masterwork one (Power 1200).</Cell><Cell>A strangely shaped gun that seems to have fallen out of another age. The better the smith, the finer the gun that comes off the anvil: forging score 20+ makes a Crude one (Power 700), 50+ a Standard one (Power 950), 75+ a Masterwork one (Power 1200).</Cell></Row>
+<Row><Cell>ui_nm_recipe_mystery_handgonne_sketch</Cell><Cell>Sketch of a Mystery Handgonne</Cell><Cell>Sketch of a Mystery Handgonne</Cell></Row>
+<Row><Cell>ui_in_recipe_mystery_handgonne_sketch</Cell><Cell>A blacksmith's sketch of a strangely shaped gun that seems to have fallen out of another age.</Cell><Cell>A blacksmith's sketch of a strangely shaped gun that seems to have fallen out of another age.</Cell></Row>
+<Row><Cell>ui_in_mystery_handgonne</Cell><Cell>A strangely shaped gun that seems to have fallen out of another age.</Cell><Cell>A strangely shaped gun that seems to have fallen out of another age.</Cell></Row>
+<Row><Cell>ui_nm_mystery_handgonne_cartridge</Cell><Cell>Mystery Handgonne cartridge</Cell><Cell>Mystery Handgonne cartridge</Cell></Row>
+<Row><Cell>ui_in_mystery_handgonne_cartridge</Cell><Cell>Cartridges for a strangely shaped gun that seems to have fallen out of another age.</Cell><Cell>Cartridges for a strangely shaped gun that seems to have fallen out of another age.</Cell></Row>
+<Row><Cell>recipe_ammo_mystery_handgonne_name</Cell><Cell>Mystery cartridge powder</Cell><Cell>Mystery cartridge powder</Cell></Row>
+<Row><Cell>recipe_ammo_mystery_handgonne_usage</Cell><Cell>Gunpowder for the cartridges of a strangely shaped gun that seems to have fallen out of another age. Made like lead shot gunpowder, but boiled in oil instead of water.</Cell><Cell>Gunpowder for the cartridges of a strangely shaped gun that seems to have fallen out of another age. Made like lead shot gunpowder, but boiled in oil instead of water.</Cell></Row>
+<Row><Cell>ui_nm_recipe_mystery_handgonne_cartridge</Cell><Cell>Recipe for Mystery cartridge powder</Cell><Cell>Recipe for Mystery cartridge powder</Cell></Row>
+<Row><Cell>ui_in_recipe_mystery_handgonne_cartridge</Cell><Cell>Gunpowder for the cartridges of a strangely shaped gun that seems to have fallen out of another age.</Cell><Cell>Gunpowder for the cartridges of a strangely shaped gun that seems to have fallen out of another age.</Cell></Row>
+<Row><Cell>alch_mystery_handgonne_step_1</Cell><Cell>You will need oil, a handful of saltpetre, a handful of sulphur and a handful of charcoal.</Cell><Cell>You will need oil, a handful of saltpetre, a handful of sulphur and a handful of charcoal.</Cell></Row>
+</Table>

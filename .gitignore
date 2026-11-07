@@ -1,0 +1,21 @@
+# Vanilla game files extracted for reference and tool scratch space (not ours to share)
+work/
+# Build output: the packaged mod that goes to the Steam Workshop
+publish/
+
+# Blender / BCry / rc intermediates
+*.blend
+*.blend1
+*.dae
+*.rcdone
+*.log
+*.glb
+*.bak
+rc_dependency.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Local Claude Code settings
+.claude/settings.local.json

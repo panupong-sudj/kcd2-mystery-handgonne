@@ -1,0 +1,7 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="round" MtlFlags="525312" Shader="Nodraw" GenMask="0" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10">
+   <Textures />
+  </Material>
+ </SubMaterials>
+</Material>

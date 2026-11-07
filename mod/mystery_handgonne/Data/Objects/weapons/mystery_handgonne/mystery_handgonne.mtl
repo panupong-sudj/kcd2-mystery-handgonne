@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!-- Gun body material. Sub-material 0 "gun" is copied from vanilla hand_cannon_a.mtl (Illum, normal + spec maps)
+     with our textures from tools/make_textures.py. The wood detail map is kept so GenMask stays valid, but its
+     scales are 0 so it has no effect on the rifle. -->
+<Material MtlFlags="524544" vertModifType="0">
+  <SubMaterials>
+    <Material CloakAmount="0" CustomSortPriority="4" Diffuse="1,1,1" GenMask="24000010002000" LayerAct="1" MatTemplate="" MtlFlags="524418" Name="gun" Opacity="1" Shader="Illum" Shininess="255" Specular="1,1,1" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" vertModifType="0">
+      <Textures>
+        <Texture File="objects/weapons/mystery_handgonne/mystery_handgonne_diff.tif" Map="Diffuse" />
+        <Texture File="objects/weapons/mystery_handgonne/mystery_handgonne_ddna.tif" Map="Bumpmap" />
+        <Texture File="objects/weapons/mystery_handgonne/mystery_handgonne_spec.tif" Map="Specular" />
+        <Texture File="engineassets/textures/detailatlas/18_wood_03_detail_h_dt.tif" Map="Detail">
+          <TexMod TexMod_bTexGenProjected="0" TexMod_RotateType="0" TexMod_TexGenType="0" TileU="3" />
+        </Texture>
+      </Textures>
+      <PublicParams DetailBumpScale="0" DetailDiffuseScale="0" DetailFadeoutDistance="0" DetailGlossScale="0" EmittanceMapGamma="1" RockDarkeningSoftEdge="0" RockDarkeningStrength="0" RockDarkeningThreshold="0" SSSIndex="0" />
+    </Material>
+  </SubMaterials>
+  <PublicParams EmittanceMapGamma="1" RockDarkeningSoftEdge="0" RockDarkeningStrength="0" RockDarkeningThreshold="0" SSSIndex="0" />
+</Material>

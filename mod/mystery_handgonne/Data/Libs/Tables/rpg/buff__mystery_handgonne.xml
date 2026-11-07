@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+	<buffs version="1">
+		<!-- Reload speed x4 while a Mystery Handgonne (any of the three versions) is equipped. Not attached to anything here:
+		     Scripts/mods/mystery_handgonne.lua binds it to the gun item with ItemManager.AddOnEquipBuff, so it does not
+		     speed up any other crossbow. rls is the stat perk_salva raises (rls*1.2). -->
+		<buff buff_class_id="12" buff_exclusivity_id="1" buff_id="7a553f9e-b8b0-423f-a7a6-ed3ac62719ca" buff_lifetime_id="0" buff_name="mystery_handgonne_fast_reload" buff_params="rls*4" duration="-1" implementation="Cpp:Constant" is_persistent="false" />
+	</buffs>
+</database>

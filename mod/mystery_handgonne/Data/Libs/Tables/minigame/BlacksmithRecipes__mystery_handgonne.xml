@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+	<BlacksmithRecipes version="1">
+		<!-- Mystery Handgonne, built the same way as Toxic's More Sketches (FireArms), Category Other.
+		     (Tried Axe: gold header, but the stats block only knows melee damage and stays empty for a gun, and the
+		     recipe moved into the axes list. The Power per version is written in the description instead.) Gun workpiece
+		     "axe", a hidden perk per recipe (rpg/perk__mystery_handgonne.xml) taught by the sketch Document
+		     recipe_mystery_handgonne_sketch. One recipe, three products by forging score (like vanilla basic_sword): the
+		     better the smith, the more often the higher-Power version comes out.
+		       score >= 20: Crude      Power 700
+		       score >= 50: Standard   Power 950
+		       score >= 75: Masterwork Power 1200 (mystery_handgonne_masterwork)
+		     Ingredients: more than vanilla-style guns in that mod (hook gun fancy: 3 iron, 3 steel, 1 good steel,
+		     2 hardware), since it is the strongest ranged weapon in the game. -->
+		<BlacksmithRecipe Id="r_mystery_handgonne" UIIcon="mystery_handgonne" Category="Other" MinSkillLevel="12" WorkpieceId="axe" PerkId="559876a6-0049-45c5-979f-252a75a3c267">
+			<UIName StringName="ui_nm_r_mystery_handgonne" Text="Mystery Handgonne" />
+			<UIDesc StringName="ui_in_r_mystery_handgonne" Text="A strangely shaped gun that seems to have fallen out of another age." />
+			<Ingredients>
+				<BlacksmithRecipeIngredient ItemClassId="92aa6120-028e-48ee-8ed1-1c5f91afaa26" Amount="3" />
+				<BlacksmithRecipeIngredient ItemClassId="3c1c0ae2-731e-40c1-a917-024fb3f000da" Amount="2" />
+				<BlacksmithRecipeIngredient ItemClassId="4a4da84c-f12a-4bc8-94dc-a7d8d76788ea" Amount="2" />
+				<BlacksmithRecipeIngredient ItemClassId="4a6269c1-5c01-473d-ad69-e0a0c41643e7" Amount="3" />
+			</Ingredients>
+			<Products>
+				<BlacksmithRecipeProduct ItemClassId="3aa546fe-db34-492b-8471-b6d0049cfc2c" MinimalQuality="20" />
+				<BlacksmithRecipeProduct ItemClassId="8dbef853-eca9-4121-927e-0bdf6281edf8" MinimalQuality="50" />
+				<BlacksmithRecipeProduct ItemClassId="537e65b8-f6c8-4a74-964d-3bdde8319617" MinimalQuality="75" />
+			</Products>
+		</BlacksmithRecipe>
+	</BlacksmithRecipes>
+</database>

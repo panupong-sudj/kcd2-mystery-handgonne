@@ -1,0 +1,7 @@
+* text=auto
+*.skin binary
+*.cgf binary
+*.dds binary
+*.tif binary
+*.bin binary
+*.png binary

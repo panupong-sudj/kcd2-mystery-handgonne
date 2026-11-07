@@ -1,0 +1,11 @@
+Model Information:
+* title:	Henry Lever-Action Rifle
+* source:	https://sketchfab.com/3d-models/henry-lever-action-rifle-98000c9642354a65b3203f76403128db
+* author:	Zverev Kirill (https://sketchfab.com/Zverev)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Henry Lever-Action Rifle" (https://sketchfab.com/3d-models/henry-lever-action-rifle-98000c9642354a65b3203f76403128db) by Zverev Kirill (https://sketchfab.com/Zverev) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

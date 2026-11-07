@@ -1,0 +1,60 @@
+[h1]Mystery Handgonne[/h1]
+
+[i]"A strangely shaped gun that seems to have fallen out of another age."[/i]
+
+A lever-action rifle that somehow ended up in 15th-century Bohemia. It aims like a crossbow, but fires a real bullet with a gunshot and muzzle smoke. Forge it yourself and brew its cartridges at the alchemy bench.
+
+[h2]Features[/h2]
+[list]
+[*][b]Crossbow-style aiming with iron sights.[/b] You aim through the rifle's own front and rear sights, which are lined up with where the bullet goes.
+[*][b]Flat, fast trajectory.[/b] The bullet flies in a near-straight line instead of an arrow's arc.
+[*][b]Gunshot sound and muzzle smoke[/b] for this gun only. Vanilla crossbows still sound like crossbows.
+[*][b]Fast reload:[/b] four times faster than a crossbow, and only while this gun is equipped. The crossbow's goat's-foot lever is hidden.
+[*][b]Forge it at the anvil[/b] in three versions. The forging score decides which one you get:
+[list]
+[*]20+ → [b]Crude Mystery Handgonne[/b] (Power 700)
+[*]50+ → [b]Mystery Handgonne[/b] (Power 950)
+[*]75+ → [b]Masterwork Mystery Handgonne[/b] (Power 1200)
+[/list]
+[*][b]Brew your own cartridges.[/b] The recipe is the same as vanilla lead shot gunpowder (saltpetre, sulphur, charcoal), but boiled in [b]oil[/b] instead of water. One brew makes 20–40 cartridges, depending on quality.
+[*][b]Thunderous Blast perk support.[/b] If you have the perk, your first shot in a fight applies the perk's debuff to nearby enemies, just like a vanilla handgonne.
+[/list]
+
+[h2]How to get started[/h2]
+When you load a save with the mod on, two items appear in your [b]home stash[/b] (once per save):
+[list]
+[*][b]Sketch of a Mystery Handgonne[/b]: read it to learn the smithing recipe (needs Craftsmanship 12; listed under [i]Other[/i]).
+[*][b]Recipe for Mystery cartridge powder[/b]: read it to learn the alchemy recipe.
+[/list]
+Forge the gun, brew a batch of cartridges and go hunting.
+
+[h2]Console commands (skip the grind)[/h2]
+Start the game with the [b]-devmode[/b] launch option (Steam → Properties → Launch Options), press [b]~[/b] for the console, and type:
+[list]
+[*][b]mystery_handgonne_gun[/b] [i][crude | standard | masterwork][/i]: adds a gun (default: masterwork)
+[*][b]mystery_handgonne_ammo[/b] [i][count][/i]: adds cartridges (default: 40)
+[*][b]mystery_handgonne_recipes[/b]: adds the gun sketch and the cartridge recipe book
+[*][b]mystery_handgonne_materials[/b] [i][times][/i]: adds smithing materials for one forging and alchemy ingredients (with oil) for one brew
+[*][b]mystery_handgonne_all[/b]: masterwork gun, 40 cartridges, both recipes and one set of materials
+[/list]
+
+[h2]Compatibility[/h2]
+[list]
+[*]Built for [b]Kingdom Come: Deliverance II[/b] with the official mod support. Works on new and existing saves.
+[*]Replaces [i]Animations/assets/crossbows/crossbow.animevents[/i] to add the gunshot and smoke. Other mods that replace the same file will conflict.
+[*]Only adds new items, recipes, perks and one buff. It does not change any vanilla item.
+[/list]
+
+[h2]Known limits[/h2]
+[list]
+[*]The gun runs on the crossbow system, so it can also load crossbow bolts.
+[*]The smithing recipe page can't show ranged stats, so Power is written in the recipe description instead.
+[*][b]Uninstalling:[/b] the mod saves hidden perks into your save. Don't remove it mid-playthrough. Keep a save from before you installed it.
+[/list]
+
+[h2]Credits[/h2]
+[list]
+[*]Gun model: [url=https://sketchfab.com/3d-models/henry-lever-action-rifle-98000c9642354a65b3203f76403128db]Henry Lever-Action Rifle[/url] by [b]Zverev Kirill[/b], licensed under [url=http://creativecommons.org/licenses/by/4.0/]CC BY 4.0[/url]. Changes: re-oriented and scaled to the KCD2 crossbow skeleton, merged into one mesh, textures re-baked.
+[*]Built with the official KCD2 Modding Tools, Blender and the KCD2 Blender Toolkit.
+[*]Source code and modding notes, free to build on: [url=https://github.com/panupong-sudj/kcd2-mystery-handgonne]github.com/panupong-sudj/kcd2-mystery-handgonne[/url]
+[/list]

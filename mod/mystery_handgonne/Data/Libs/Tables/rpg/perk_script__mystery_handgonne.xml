@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+	<perk_scripts version="1">
+		<perk_script perk_editor_name="BS recipe r_mystery_handgonne" perk_id="559876a6-0049-45c5-979f-252a75a3c267" />
+		<perk_script perk_editor_name="mystery_handgonne recipes given (old)" perk_id="f981a232-0c64-4305-8fb4-3ed11b96b9a1" />
+		<perk_script perk_editor_name="mystery_handgonne recipes in stash" perk_id="d61014cd-b298-4683-8e92-0ab3fcc83963" />
+	</perk_scripts>
+</database>

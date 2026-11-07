@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kcd_mod>
+  <info>
+    <name>Mystery Handgonne</name>
+    <modid>mystery_handgonne</modid>
+    <description>A lever-action gun on the crossbow system: crossbow aiming with iron sights, flat bullet trajectory, gunshot and smoke, x4 reload, forgeable in three versions, cartridges brewed at the alchemy bench.</description>
+    <author>panupong-sudj</author>
+    <version>1.0.0</version>
+    <created_on>2026-11-06</created_on>
+    <modifies_level>false</modifies_level>
+  </info>
+</kcd_mod>
