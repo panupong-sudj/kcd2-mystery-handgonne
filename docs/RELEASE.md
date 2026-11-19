@@ -12,7 +12,7 @@ The Workshop gets the **built** mod (`publish/mystery_handgonne/`), never this r
    - forge the sketch;
    - brew the cartridges;
    - starter recipes in the home stash on a fresh save;
-   - console commands.
+   - console commands: after loading the save, type **every** command from the README table, plus each command that takes an argument once **without** it (`mystery_handgonne_gun`, `mystery_handgonne_ammo`, `mystery_handgonne_materials`). Check that the items arrive in the inventory, and that `kcd.log` has one `[mystery_handgonne] console:` line per command. The log can lag about a minute behind. "One command worked" is not a pass: 1.0.0 shipped with `all` and `recipes` working, while every command that takes an argument did nothing.
 4. **Cover image:** use a 16:9 or 1:1 image under 1 MB. An in-game screenshot of the gun firing works best. The current covers are cropped from a firing screenshot into `publish/workshop_cover_16x9.jpg` (1920×1080) and `publish/workshop_cover_1x1.jpg` (1024×1024). Like the build, they are not in git.
 5. **Upload:** open `<Steam>/steamapps/common/KCD2Mod/Tools/SteamWorkshopUploader/SteamWorkshopUploader.exe` (part of KCD2 Modding Tools) and fill in:
 

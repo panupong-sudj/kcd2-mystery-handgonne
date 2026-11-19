@@ -5,7 +5,7 @@
     <modid>mystery_handgonne</modid>
     <description>A lever-action gun on the crossbow system: crossbow aiming with iron sights, flat bullet trajectory, gunshot and smoke, x4 reload, forgeable in three versions, cartridges brewed at the alchemy bench.</description>
     <author>panupong-sudj</author>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <created_on>2026-11-06</created_on>
     <modifies_level>false</modifies_level>
   </info>

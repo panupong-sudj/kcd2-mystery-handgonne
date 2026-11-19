@@ -260,10 +260,11 @@ local BREW_MATERIALS = {
 	{ "f879ac63-2ce2-4114-83a2-89643c1ed102", 1 },
 }
 
--- A console argument: empty when none was typed (the engine may leave the "%1" placeholder in place).
+-- A console argument: the first word of the line typed after the command, empty when none was typed.
+-- Commands pass %line, not %1: with %1 the engine refuses a bare command ("Not enough arguments").
 local function Arg(a)
-	a = tostring(a or "")
-	if a == "" or string.sub(a, 1, 1) == "%" then
+	a = string.match(tostring(a or ""), "^%s*(%S*)") or ""
+	if string.sub(a, 1, 1) == "%" then
 		return ""
 	end
 	return string.lower(a)
@@ -321,13 +322,13 @@ function MysteryHandgonne:CmdAll()
 	self:CmdMaterials(1)
 end
 
-System.AddCCommand("mystery_handgonne_gun", 'MysteryHandgonne:CmdGun("%1")',
+System.AddCCommand("mystery_handgonne_gun", "MysteryHandgonne:CmdGun(%line)",
 	"Mystery Handgonne: add a gun to the bag. Optional: crude | standard | masterwork (default)")
-System.AddCCommand("mystery_handgonne_ammo", 'MysteryHandgonne:CmdAmmo("%1")',
+System.AddCCommand("mystery_handgonne_ammo", "MysteryHandgonne:CmdAmmo(%line)",
 	"Mystery Handgonne: add cartridges to the bag. Optional count (default 40)")
 System.AddCCommand("mystery_handgonne_recipes", "MysteryHandgonne:CmdRecipes()",
 	"Mystery Handgonne: add the gun sketch and the cartridge recipe book to the bag")
-System.AddCCommand("mystery_handgonne_materials", 'MysteryHandgonne:CmdMaterials("%1")',
+System.AddCCommand("mystery_handgonne_materials", "MysteryHandgonne:CmdMaterials(%line)",
 	"Mystery Handgonne: add materials for one forging and one brew. Optional multiplier (default 1)")
 System.AddCCommand("mystery_handgonne_all", "MysteryHandgonne:CmdAll()",
 	"Mystery Handgonne: masterwork gun, 40 cartridges, both recipes and one set of materials")

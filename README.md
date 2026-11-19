@@ -26,15 +26,21 @@ This repository is the **development source**: mod files, the scripts that build
 
 ## Console commands
 
-Launch the game with `-devmode` (Steam → game Properties → Launch Options), then open the console with `~`.
+Launch the game with `-devmode` (Steam → game Properties → Launch Options), load your save, open the console with `~`, then type one line exactly as written and press Enter. Type it on its own line, with nothing in front of it (not after `cheat_add_item`).
 
-| Command | Adds to your bag |
+| Type this | Adds to your inventory |
 | --- | --- |
-| `mystery_handgonne_gun [crude\|standard\|masterwork]` | One gun. The default is masterwork. |
-| `mystery_handgonne_ammo [count]` | Cartridges. The default is 40. |
-| `mystery_handgonne_recipes` | The gun sketch and the cartridge recipe book. |
-| `mystery_handgonne_materials [times]` | Smithing materials for one forging, and alchemy ingredients (including oil) for one brew, multiplied by `times`. |
 | `mystery_handgonne_all` | Masterwork gun, 40 cartridges, both recipes and one set of materials. |
+| `mystery_handgonne_gun masterwork` | One masterwork gun. |
+| `mystery_handgonne_gun standard` | One standard gun. |
+| `mystery_handgonne_gun crude` | One crude gun. |
+| `mystery_handgonne_ammo 40` | 40 cartridges. Change 40 to any number. |
+| `mystery_handgonne_recipes` | The gun sketch and the cartridge recipe book. |
+| `mystery_handgonne_materials 1` | Smithing materials for one forging, and alchemy ingredients (including oil) for one brew. Change 1 to 2, 3… for more. |
+
+Loading a save afterwards removes the items again, since the save doesn't have them. Run the command again after loading.
+
+With the Cheat mod, use the item names instead: `mystery_handgonne_masterwork`, `mystery_handgonne_standard`, `mystery_handgonne_crude` and `mystery_handgonne_cartridge`. For example: `cheat_add_item exact:mystery_handgonne_cartridge amount:40`.
 
 ## Repository layout
 

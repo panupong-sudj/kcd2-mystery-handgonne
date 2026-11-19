@@ -29,14 +29,36 @@ When you load a save with the mod on, two items appear in your [b]home stash[/b]
 Forge the gun, brew a batch of cartridges and go hunting.
 
 [h2]Console commands (skip the grind)[/h2]
-Start the game with the [b]-devmode[/b] launch option (Steam → Properties → Launch Options), press [b]~[/b] for the console, and type:
-[list]
-[*][b]mystery_handgonne_gun[/b] [i][crude | standard | masterwork][/i]: adds a gun (default: masterwork)
-[*][b]mystery_handgonne_ammo[/b] [i][count][/i]: adds cartridges (default: 40)
-[*][b]mystery_handgonne_recipes[/b]: adds the gun sketch and the cartridge recipe book
-[*][b]mystery_handgonne_materials[/b] [i][times][/i]: adds smithing materials for one forging and alchemy ingredients (with oil) for one brew
-[*][b]mystery_handgonne_all[/b]: masterwork gun, 40 cartridges, both recipes and one set of materials
-[/list]
+Start the game with the [b]-devmode[/b] launch option (Steam → Properties → Launch Options), load your save, press [b]~[/b] for the console, then type one of these lines exactly as written and press Enter. Type the line on its own, with nothing in front of it (not after [i]cheat_add_item[/i]).
+[code]
+mystery_handgonne_all
+[/code]
+Everything at once: masterwork gun, 40 cartridges, both recipes and one set of materials.
+[code]
+mystery_handgonne_gun masterwork
+mystery_handgonne_gun standard
+mystery_handgonne_gun crude
+[/code]
+One gun of that quality.
+[code]
+mystery_handgonne_ammo 40
+[/code]
+40 cartridges. Change 40 to any number.
+[code]
+mystery_handgonne_recipes
+[/code]
+The gun sketch and the cartridge recipe book.
+[code]
+mystery_handgonne_materials 1
+[/code]
+Smithing materials for one forging and alchemy ingredients (with oil) for one brew. Change 1 to 2, 3… for more.
+
+The items go straight into your inventory. If you load a save afterwards, they are gone (the save does not have them), so run the command again after loading.
+
+Using the Cheat mod instead? The item names are [i]mystery_handgonne_masterwork[/i], [i]mystery_handgonne_standard[/i], [i]mystery_handgonne_crude[/i] and [i]mystery_handgonne_cartridge[/i], for example:
+[code]
+cheat_add_item exact:mystery_handgonne_cartridge amount:40
+[/code]
 
 [h2]Compatibility[/h2]
 [list]

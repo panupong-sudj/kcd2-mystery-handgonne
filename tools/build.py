@@ -6,6 +6,7 @@ Checks (all read-only against the game):
   - every .xml/.cdf in the mod parses
   - new item Ids do not collide with any vanilla item Id
   - every Model/HolsterModel/Binding path resolves to a file in the mod or in a game pak
+  - no Lua console command is registered with %1..%9 (they break; %line works)
 """
 import glob
 import os
@@ -108,12 +109,24 @@ def check_paths():
                         errors.append(f"{rel}: {attr} -> {v} not found")
 
 
+def check_console_commands():
+    # %1..%9 make the engine refuse a bare command ("Not enough arguments") and do nothing when an argument
+    # is typed (seen in kcd.log for 1.0.0). %line works in both cases, as the Cheat mod uses it.
+    for path, rel in files_under(os.path.join(SRC, "Data")):
+        if not rel.endswith(".lua"):
+            continue
+        for n, line in enumerate(open(path, encoding="utf-8", errors="ignore"), 1):
+            if "AddCCommand" in line and re.search(r"%[1-9]", line):
+                errors.append(f"{rel}:{n}: console command uses %1..%9; pass %line instead")
+
+
 def main():
     check_xml()
     if errors:
         return finish()
     ids = check_ids()
     check_paths()
+    check_console_commands()
     if errors:
         return finish()
 
